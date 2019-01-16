@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore.iml" group="JDBCRPCCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore_main.iml" group="JDBCRPCCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpccore/JDBCRPCCore_test.iml" group="JDBCRPCCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer.iml" group="JDBCRPCServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer_main.iml" group="JDBCRPCServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbcrpcserver/JDBCRPCServer_test.iml" group="JDBCRPCServer" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcRPC.iml" filepath="$PROJECT_DIR$/jdbcRPC.iml" />
+    </modules>
+  </component>
+</project>

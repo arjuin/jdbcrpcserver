@@ -1,0 +1,40 @@
+apply plugin: 'application'
+
+sourceCompatibility = '1.7'
+
+mainClassName = 'jdbcrpc.server.Server'
+if (!hasProperty('mainClass')) {
+    ext.mainClass = 'jdbcrpc.server.Server'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+
+dependencies {
+    compile 'commons-configuration:commons-configuration:1.10'
+    compile project(':JDBCRPCCore')
+
+    runtime 'org.slf4j:slf4j-log4j12:1.5.3'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
+
+task lib(type: Copy, dependsOn: jar) {
+    from configurations.runtime
+    
+    into "$distsDir/lib"
+}
+
+task dist(type: Copy, dependsOn: lib) {
+    from jar.archivePath
+    from 'server.properties'
+    from 'start.sh'
+    from 'jdbcrpcserver'
+    
+    into distsDir 
+}
